@@ -1,0 +1,29 @@
+.playfair-display {
+  font-family: "Playfair Display", serif;
+}
+
+.karla {
+  font-family: "Karla", sans-serif;
+}
+
+.fira-mono {
+  font-family: "Fira Mono", monospace;
+}
+
+.lh-1-75 { line-height: 1.75; }
+
+@media (--breakpoint-not-small) {
+  .lh-1-75-ns   { line-height: 1.75; }
+}
+
+@media (--breakpoint-medium) {
+  .lh-1-75-m   { line-height: 1.75; }
+}
+
+@media (--breakpoint-large) {
+  .lh-1-75-l   { line-height: 1.75; }
+}
+
+.f4 {
+  font-size: 1.13rem;
+}
